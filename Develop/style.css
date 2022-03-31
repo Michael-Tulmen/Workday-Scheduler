@@ -69,3 +69,12 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+.saveBtn {
+  background-color: rgb(40, 167, 39);
+}
+.time-block {
+  background-color: #06AED5;
+}
+.time-slot {
+  background-color: #d3d3d3;
+}
