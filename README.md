@@ -23,4 +23,9 @@ enters to local storage
 
 
 The below image shows the current time on pc at the time of posting and that 1pm was correctly attributed the "present" class by the script
+
+Deployed: 
+https://michael-tulmen.github.io/Workday-Scheduler/
+
+
 ![Demo-Image](./Assets/images/demo-image.png)
