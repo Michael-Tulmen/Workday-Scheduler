@@ -1,7 +1,7 @@
 //1st recognize that I've made time blocks for each hour from 8 to 5, I need the ability to save that to local storage when the user clicks on the save button
 
 
-// add a variable to measure the exact time of day and date so that the program can remember
+// add a variable to measure the exact time of day and date so that the program can remember at top of page
 var currentTime = moment().format('MMMM Do YYYY, h:mm:ss a');
 $("#currentDay").text(currentTime);
 
@@ -37,55 +37,55 @@ $(document).ready(function () {
     } else {
         ("");
     }
-    if (localStorage["9am"] !== null && localStorage["9am"] !== undefined) {
+    if(localStorage["9am"] !== null && localStorage["9am"] !== undefined) {
         var nineAm = $("<p>" + localStorage["9am"] + "</p>");
         $("#nineAm").append(nineAm[0].innerText);
     } else {
         ("");
     }
-      if (localStorage["10am"] !== null && localStorage["10am"] !== undefined) {
+      if(localStorage["10am"] !== null && localStorage["10am"] !== undefined) {
         var tenAm = $("<p>" + localStorage["10am"] + "</p>");
         $("#tenAm").append(tenAm[0].innerText);
     } else {
         ("");
     }
-      if (localStorage["11am"] !== null && localStorage["11am"] !== undefined) {
+      if(localStorage["11am"] !== null && localStorage["11am"] !== undefined) {
         var elevenAm = $("<p>" + localStorage["11am"] + "</p>");
         $("#elevenAm").append(elevenAm[0].innerText);
     } else {
         ("");
     }
-      if (localStorage["12pm"] !== null && localStorage["12pm"] !== undefined) {
+      if(localStorage["12pm"] !== null && localStorage["12pm"] !== undefined) {
         var twelvePm = $("<p>" + localStorage["12pm"] + "</p>");
         $("#twelvePm").append(twelvePm[0].innerText);
     } else {
         ("");
     }
-      if (localStorage["1pm"] !== null && localStorage["1pm"] !== undefined) {
+      if(localStorage["1pm"] !== null && localStorage["1pm"] !== undefined) {
         var onePm = $("<p>" + localStorage["1pm"] + "</p>");
         $("#onePm").append(onePm[0].innerText);
     } else {
         ("");
     }
-      if (localStorage["2pm"] !== null && localStorage["2pm"] !== undefined) {
+      if(localStorage["2pm"] !== null && localStorage["2pm"] !== undefined) {
         var twoPm = $("<p>" + localStorage["2pm"] + "</p>");
         $("#twoPm").append(twoPm[0].innerText);
     } else {
         ("");
     }
-      if (localStorage["3pm"] !== null && localStorage["3pm"] !== undefined) {
+      if(localStorage["3pm"] !== null && localStorage["3pm"] !== undefined) {
         var threePm = $("<p>" + localStorage["3pm"] + "</p>");
         $("#threePm").append(threePm[0].innerText);
     } else {
         ("");
     }
-      if (localStorage["4pm"] !== null && localStorage["4pm"] !== undefined) {
+      if(localStorage["4pm"] !== null && localStorage["4pm"] !== undefined) {
         var fourPm = $("<p>" + localStorage["4pm"] + "</p>");
         $("#fourPm").append(fourPm[0].innerText);
     } else {
         ("");
     }
-      if (localStorage["5pm"] !== null && localStorage["5pm"] !== undefined) {
+      if(localStorage["5pm"] !== null && localStorage["5pm"] !== undefined) {
         var fivePm = $("<p>" + localStorage["5pm"] + "</p>");
         $("#fivePm").append(fivePm[0].innerText);
     } else {
