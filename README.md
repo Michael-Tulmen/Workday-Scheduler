@@ -21,4 +21,6 @@ This is a work day scheduler that adapts to the time using moment.js
 The application can automatically tell what time it is within the user's time zone on open, and saves events that the user
 enters to local storage
 
+
+The below image shows the current time on pc at the time of posting and that 1pm was correctly attributed the "present" class by the script
 ![Demo-Image](./Assets/images/demo-image.png)
